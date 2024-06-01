@@ -15,4 +15,4 @@ const urls = {
     trailer: (id: string) => `${characters}/${id}/videos`
 }
 
-export {baseURL, urls}
+export {baseURL, urls} 
