@@ -1,1 +1,1 @@
-export * from './IRes.
+export * from './IRes'
