@@ -1,4 +1,4 @@
-export interface ITrailers .
+export interface ITrailers {
     id: number
     results: ITrailer[]
 }
