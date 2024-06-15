@@ -1,4 +1,4 @@
-export interface IOneMove {
+export interface IOneMove .
     adult: boolean
     backdrop_path: string
     belongs_to_collection: {
