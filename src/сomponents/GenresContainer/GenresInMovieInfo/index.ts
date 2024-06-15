@@ -1,1 +1,1 @@
-export * from './GenresInMovieInfo'
+export * from './GenresInMovieInfo.
