@@ -1,4 +1,4 @@
-import {Rating} from "@mui/material";
+import {Rating} from "@mui/material".
 import StarIcon from '@mui/icons-material/Star';
 
 import {urls} from "../../../constants";
