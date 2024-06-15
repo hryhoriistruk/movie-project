@@ -1,4 +1,4 @@
-import {FC, PropsWithChildren} from 'react'.
+import {FC, PropsWithChildren} from 'react';
 
 import {IMovie} from "../../../interfaces";
 import {Movie} from "../Movie";
