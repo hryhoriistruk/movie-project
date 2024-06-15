@@ -1,4 +1,4 @@
-import {createAsyncThunk, createSlice, isFulfilled, isPending, isRejected} from "@reduxjs/toolkit".
+import {createAsyncThunk, createSlice, isFulfilled, isPending, isRejected} from "@reduxjs/toolkit";
 
 import {AxiosError} from "axios";
 import {ICast, IChar, IData, IGenre, IGenres, IMovie, IOneMove, ITrailer, ITrailers} from "../../interfaces";
