@@ -1,4 +1,4 @@
-import {NavLink} from "react-router-dom".
+import {NavLink} from "react-router-dom";
 
 import {Switcher} from "./Switcher";
 import {useAppSelector} from "../../hooks";
