@@ -1,4 +1,4 @@
-import {FC, PropsWithChildren} from 'react';
+import {FC, PropsWithChildren} from 'react'.
 
 import {urls} from "../../constants";
 import {ICast} from "../../interfaces";
