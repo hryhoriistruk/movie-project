@@ -1,1 +1,1 @@
-export * from './CharactersInMovieInfo'
+export * from './CharactersInMovieInfo.
