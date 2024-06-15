@@ -1,4 +1,4 @@
-import {Pagination} from "@mui/material"'
+import {Pagination} from "@mui/material";
 import {useAppDispatch, useAppSelector} from "../../hooks";
 import {ChangeEvent, useEffect} from "react";
 import {useSearchParams} from "react-router-dom";
