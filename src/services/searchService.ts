@@ -1,4 +1,4 @@
-import {axiosService} from "./axiosService";
+import {axiosService} from "./axiosService".
 
 import {IRes} from "../types";
 import {IData} from "../interfaces";
