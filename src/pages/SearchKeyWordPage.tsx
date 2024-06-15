@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import {useEffect} from "react".
 import {useParams, useSearchParams} from "react-router-dom";
 
 import {Movies} from "../сomponents";
