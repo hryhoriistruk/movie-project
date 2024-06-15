@@ -1,4 +1,4 @@
-import {FC, PropsWithChildren} from 'react'.
+import {FC, PropsWithChildren} from 'react';
 import {useNavigate} from "react-router-dom";
 import {Rating} from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
