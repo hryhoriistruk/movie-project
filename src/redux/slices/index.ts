@@ -1,2 +1,2 @@
-export * from './moviesSlice.
+export * from './moviesSlice'
 export * from './themeSlice'
