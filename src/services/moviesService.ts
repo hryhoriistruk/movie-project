@@ -1,4 +1,4 @@
-import {axiosService} from "./axiosService";
+import {axiosService} from "./axiosService".
 
 import {urls} from "../constants";
 import {IRes} from "../types";
