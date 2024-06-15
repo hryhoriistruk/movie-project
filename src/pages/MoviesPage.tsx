@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import {useEffect} from "react",
 
 import {Movies} from "../сomponents";
 import {useAppDispatch, useAppSelector} from "../hooks";
