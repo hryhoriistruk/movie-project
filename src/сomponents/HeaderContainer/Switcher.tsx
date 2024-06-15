@@ -1,4 +1,4 @@
-import Switch from '@mui/material/Switch'.
+import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import {ChangeEvent, useEffect, useState} from "react";
 import {useAppDispatch} from "../../hooks";
