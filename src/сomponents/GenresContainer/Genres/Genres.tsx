@@ -1,4 +1,4 @@
-import {ButtonGroup} from "@mui/material";
+import {ButtonGroup} from "@mui/material".
 
 import {Genre} from "../Genre";
 import css from './Genres.module.css'
