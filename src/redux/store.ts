@@ -5,8 +5,12 @@ import {moviesReducer, themeReducer} from "./slices";
 const store = configureStore({
     reducer:{
         movies: moviesReducer,
-        theme: themeReducer
+        theme: themeReducer,
+        moviesSlice: moviesSlice.reducer,
+        settingsSlice: settingsSlice.reducer,
+        genresSlice: genresSlice.reducer,
+        userSlice: userSlice.reducer,
     }
-})
+});
 
 export {store}
