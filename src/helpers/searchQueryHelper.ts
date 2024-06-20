@@ -1,37 +1,26 @@
+
 interface ISearchQueryProps {
-  page?: number;
-  genres?: number[];
-  search?: string;
+  page: number;
+  genres: number[];
 }
 
-export const generateSearchQuery = ({
-  page = 1,
-  genres = [],
-  search = "",
-}: ISearchQueryProps) => {
-  let query = "";
-
-  if (search) {
-    query = `search=${search}`;
-  }
-
+export const generateSearchQuery = ({ page, genres }: ISearchQueryProps) => {
+  let search = "";
   if (genres.length > 0) {
-    if (query) {
-      query += "&";
-    }
-    query += `genres=${JSON.stringify(genres)}`;
+    search = `genres=${JSON.stringify(genres)}`;
   }
 
   if (page != 1) {
-    if (query) {
-      query += "&";
+    if (search) {
+      search += "&";
     }
-    query += `page=${page}`;
+    search += `page=${page}`;
   }
 
-  if (query) {
-    query = "?" + query;
+  if (search) {
+    search = "?" + search;
   }
 
-  return query;
+  return search;
 };
+
