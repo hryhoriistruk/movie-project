@@ -5,8 +5,8 @@ import {moviesReducer, themeReducer} from "./slices";
 const store = configureStore({
     reducer:{
         movies: moviesReducer,
-        theme: themeReducer,
+        theme: themeReducer
     }
-});
+})
 
 export {store}
