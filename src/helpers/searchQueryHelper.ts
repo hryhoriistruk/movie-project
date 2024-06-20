@@ -1,4 +1,3 @@
-
 interface ISearchQueryProps {
   page: number;
   genres: number[];
@@ -23,4 +22,3 @@ export const generateSearchQuery = ({ page, genres }: ISearchQueryProps) => {
 
   return search;
 };
-
