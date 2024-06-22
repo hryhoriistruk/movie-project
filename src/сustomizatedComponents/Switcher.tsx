@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Switch, { SwitchProps } from '@mui/material/Switch';
+import { styled, Theme } from '@mui/material/styles';
+import Switch from '@mui/material/Switch';
 
-
-export const MaterialUISwitch = styled(Switch)(({ theme }) => ({
+export const MaterialUISwitch = styled(Switch)(({ theme }: { theme: Theme }) => ({
     width: 62,
     height: 34,
     padding: 7,
