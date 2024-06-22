@@ -1,17 +1,14 @@
 import * as React from 'react';
-import Badge, {BadgeProps} from '@mui/material/Badge';
-import {styled} from '@mui/material/styles';
+import Badge, { BadgeProps } from '@mui/material/Badge';
+import { styled, Theme } from '@mui/material/styles';
 
-
-const StyledBadge = styled(Badge)<BadgeProps>(({theme}) => ({
-    '& .MuiBadge-badge': {
-        right: -3,
-        top: 13,
-        border: `2px solid ${theme.palette.background.paper}`,
-        padding: '0 4px',
-    },
+const StyledBadge = styled(Badge)<BadgeProps>(({ theme }: { theme: Theme }) => ({
+  '& .MuiBadge-badge': {
+    right: -3,
+    top: 13,
+    border: `2px solid ${theme.palette.background.paper}`,
+    padding: '0 4px',
+  },
 }));
 
-
-
-export {StyledBadge}
+export { StyledBadge };
